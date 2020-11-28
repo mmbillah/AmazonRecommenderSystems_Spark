@@ -1,0 +1,12 @@
+Md Muhtasim Billah
+
+1. Project goals with the amazon data
+
+	a. Convert to a json file from the text file. (optional)
+	b. From the json file, create multiple relations.
+	c. Upload the relations/table on MySQL
+	d. Import them and manipulate the data using SparkSQL
+	e. Do EDA, data wrangling.
+	f. Apply machine learning using mllib of PySaprk
+
+All of this will only require one node so we probably won't have to parallelize. Thus, it can be initially done on a personal machine or Databricks community edition. Later on, we can use AWS EC2 before the final run.
